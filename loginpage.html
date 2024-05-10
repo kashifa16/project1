@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        .wrap {
+            background: url(/background6.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding-bottom: 120px;
+            padding-top: 30px;
+        }
+
+        .sign {
+            margin: auto;
+            width: 400px;
+            padding: 50px;
+            padding-left: 40px;
+            border-radius: 3px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 80px;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+        }
+
+        #inputfield {
+            padding: 6px;
+            margin-top: 10px;
+            width: 100%;
+        }
+
+        .sign a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .sign a:hover {
+            color: rgb(92, 11, 92);
+        }
+
+        .sign i {
+            position: relative;
+            top: -25px;
+            left: 390px;
+
+        }
+
+        .google a {
+            color: black;
+            margin-left: 395px;
+        }
+
+        .google a:hover {
+            background-color: rgb(199, 64, 199);
+            color: white;
+        }
+
+        .google {
+            border: 1px solid black;
+            background-color: rgb(240, 139, 235);
+            width: 100%;
+            padding: 5px;
+            font-weight: bold;
+        }
+
+        .google i {
+            margin-left: -280px;
+            top: 2px;
+            color: black;
+        }
+
+        .button a {
+            margin-left: 170px;
+            color: black;
+            text-decoration: none;
+        }
+
+        .button a:hover {
+            background-color: rgb(228, 76, 228);
+            color: white;
+        }
+
+        .button {
+            margin-top: 30px;
+            border: 1px solid black;
+            background-color: rgb(240, 139, 235);
+            width: 100%;
+            padding: 5px;
+            font-weight: bold;
+        }
+
+        .sign p {
+            margin-left: 190px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+            color: white;
+
+        }
+
+        .sign h3 {
+            margin-left: 180px;
+            margin-bottom: 20px;
+            margin-top: -20px;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="sign">
+            <h3>LOG IN</h3>
+            <form action="get">
+
+                <div>
+                    <input type="email" name="" id="inputfield" placeholder="Enter your Email">
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div>
+                    <input type="password" name="" id="inputfield" placeholder="Enter your password">
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <a href="#">Forget password?</a>
+                <div class="button">
+                    <a href="#">Log in</a>
+                </div>
+                <p>OR</p>
+                <div class="google">
+                    <i class="fa-brands fa-google"></i>
+                    <a href="https:/google.com" id="go">Sign in with Google</a>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
